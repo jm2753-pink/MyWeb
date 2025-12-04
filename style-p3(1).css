@@ -1,0 +1,46 @@
+
+body {
+	background-color: cadetblue;
+	font-family:  vipnagorgialla;
+	height: 95vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#menu {
+	width: 400px;
+	position: fixed;
+	top:20px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	left: 0;
+}
+
+a {
+		color: lightgreen;
+}
+
+img {
+	width: 1800px;
+	position: fixed;
+	top: -10px;
+
+
+} 
+
+
+#letter-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 20px;
+
+}
+
+.letters {
+	font-size: 200px;
+}
+
+

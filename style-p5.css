@@ -1,0 +1,32 @@
+body{ 
+		 background: lightyellow;
+		 font-family: vipnagorgialla;
+		}
+		 
+
+
+
+#menu {
+	width: 400px;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	left: 0;
+}
+
+a {
+		color: lightgreen;
+}
+
+img1{
+
+	width: 1200px;
+} 
+
+
+
+img1{
+
+	width: 1200px;
+} 
