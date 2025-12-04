@@ -1,0 +1,63 @@
+
+
+body {
+	background-color: black;
+	font-family: vipnagorgialla;
+
+
+
+	background-image: url('images/DimesionalBackgroundgreen(1).png');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+}
+
+#menu {
+	width: 400px;
+	position: fixed;
+	top: 100px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	left: 0;
+
+a {
+		color: hotpink;
+}
+
+
+
+	.number-container {
+  position: relative;
+  width: 100%; /* Adjust as needed */
+  height: 300px; /* Adjust as needed */
+}
+
+.number {
+  position: absolute;
+  color:lightgreen;
+  font-size: 2em; /* Adjust as needed */
+  opacity: 0; /* Initially hidden */
+  animation: appear-disappear 5s infinite alternate; /* Example animation */
+}
+
+@keyframes appear-disappear {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  80% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
+
